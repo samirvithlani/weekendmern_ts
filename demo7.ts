@@ -13,5 +13,5 @@ enum Role{
     MANAGER
 }
 
-let myrole:Role = Role.ADMIN
+let myrole:Role = Role.USER
 console.log(myrole)

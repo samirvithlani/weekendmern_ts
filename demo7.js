@@ -8,5 +8,5 @@ var Role;
     Role[Role["USER"] = 102] = "USER";
     Role[Role["MANAGER"] = 103] = "MANAGER";
 })(Role || (Role = {}));
-var myrole = Role.ADMIN;
+var myrole = Role.USER;
 console.log(myrole);
