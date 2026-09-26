@@ -8,6 +8,7 @@ class Student{
     private fees:number=23000
     protected marks:number=100
     readonly schoolid:number=101
+    static city:string="Ahmedabad"
     //const x:number = 100
 
     // constructor(){
@@ -30,6 +31,9 @@ class Student{
 
     getageaftergivenyeasr(year:number):number{
         return this.age + year
+    }
+    static getStatus(){
+        console.log("status")
     }
 }
 
@@ -54,3 +58,5 @@ console.log(student1.age)
 //console.log(student1.marks) //procted no access out of class ---> it can access from child class
 
 //console.log(student1.fees) // private no access
+console.log(Student.city) // static prop
+console.log(Student.getStatus())
