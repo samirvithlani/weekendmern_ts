@@ -9,3 +9,16 @@ undefined
 bigint
 symbol
 any
+
+
+data:[{id,name,email,password,age}]
+status:true
+role:"admin","user"
+token:""
+
+
+type Obj{
+    id:number
+    age:numner
+}
+
